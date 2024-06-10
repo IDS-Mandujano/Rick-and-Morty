@@ -1,6 +1,8 @@
 import { useState,useEffect } from 'react'
 import Cards from '../molecules/Cards'
+import Swal from 'sweetalert2'
 import './sectionCards.css'
+import '@sweetalert2/theme-bulma'
 
 function SectionCards(){
 
@@ -17,6 +19,7 @@ function SectionCards(){
         })
         .then(data => {
           setCharacters(data.results)
+          Swal.fire("Los datos se han obtenido exitosamente")
           console.log(data.results);
         })
         .catch(error =>{
