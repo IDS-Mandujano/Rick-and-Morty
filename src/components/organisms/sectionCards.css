@@ -1,0 +1,8 @@
+#cards-section{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 4.5rem 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+#card-container{
+    border-radius: 5px;
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: rgb(55, 56, 62);
+}
+
+#img-container{
+    width: 40%;
+}
+
+#info-container{
+    width: 58%;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+#section-name div{
+    display: flex;
+}
