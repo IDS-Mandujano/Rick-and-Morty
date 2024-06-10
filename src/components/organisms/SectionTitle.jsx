@@ -1,7 +1,7 @@
-import Title from "../atoms/Title"
+import TitleContainer from "../molecules/TitleContainer"
 
 function SectionTitle(){
-    return <Title/>
+    return <TitleContainer image="background.png"/>
 }
 
 export default SectionTitle

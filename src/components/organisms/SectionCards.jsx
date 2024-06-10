@@ -27,9 +27,9 @@ function SectionCards(){
   return (
     <div id="cards-section">
       {
-      characters.map(item =>
+      characters.map((item,index) =>
         <Cards 
-        key={""}
+        key={index}
         image={item.image} 
         name={item.name} status={item.status}
         origin={item.origin.name}
