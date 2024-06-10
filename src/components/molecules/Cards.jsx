@@ -11,9 +11,14 @@ function Cards(props){
                 <Image image={props.image}/>
             </div>
             <div id="info-container">
-                <div>
+                <div id="name-container">
                     <Name name={props.name}/>
-                    <Text text={`${props.status} - ${props.species}`}/>
+                    <div id="status-container">
+                        <span id={props.status}/>
+                    </div>
+                    <div id="species-container">
+                        <Text text={props.species} status={props.status}/>
+                    </div>
                 </div>
                 <div>
                     <Span subtitle={"Lugar de origen"}/>

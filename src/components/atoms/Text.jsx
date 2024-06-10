@@ -5,8 +5,8 @@ const TextStyled = styled.p`
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 `
-function Text(props){
-    return <TextStyled>{props.text}</TextStyled>
+function Text({text,status}){
+    return <TextStyled>{status} {text}</TextStyled>
 }
 
 export default Text

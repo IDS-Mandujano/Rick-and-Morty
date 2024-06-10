@@ -17,6 +17,37 @@
     flex-flow: wrap column;
 }
 
-#section-name div{
+#status-container{
+    width: 30%;
+    position: absolute;
+    margin-top: 3px;
+}
+
+#species-container{
+    margin-left: 20px;
+}
+
+#Alive{
+    background-color: rgb(44, 202, 44);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#Dead{
+    background-color: rgb(227, 78, 78);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#unknown{
+    background-color: rgb(189, 185, 185);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
     display: flex;
 }
