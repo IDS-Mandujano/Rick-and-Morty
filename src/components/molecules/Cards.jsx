@@ -17,7 +17,7 @@ function Cards(props){
                         <span id={props.status}/>
                     </div>
                     <div id="species-container">
-                        <Text text={props.species} status={props.status}/>
+                        <Text text={`${props.status} - ${props.species}`}/>
                     </div>
                 </div>
                 <div>
